@@ -1,3 +1,51 @@
-baseURL = 'https://yuchenlin.com/'
+# Front matter
+baseURL = 'https://yclin.com/'
 languageCode = 'en-us'
-title = 'Yu-Chen, Lin (Jean)'
+title = 'Hello, I am a software engineer!'
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
+
+[params]
+  header_image = "img/home-cover2.jpg"
+  SEOTitle = "yc.lin blog | Software Engineer"
+  description = "Description test"
+  keyword = "Keyword test"
+  slogan = "slogan test"
+  upstreamAttribution = true
+  author = 'yc.lin'
+
+#   image_404 = "img/404-bg.jpg"
+#   title_404 = "你来到了没有知识的荒原 :("
+#   omit_categories = false
+
+  # Sidebar settings
+  about_me = true
+  sidebar_about_description = "Software Engineer and Life Adventurer"
+  sidebar_avatar = "img/professional_pitcture_org.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+  featured_tags = true 
+  featured_condition_size = 1 
+
+  [params.social]
+  rss            = true 
+  email          = "jeanlin1203@gmail.com"
+  #twitter       = "full profile url in twitter"
+  linkedin       = "https://www.linkedin.com/in/jeanlintw/"
+  #stackoverflow  = "full profile url in stackoverflow"
+  github         = "https://github.com/yzJean"
+  #medium        = "full profile url in medium"
+  #git           = "full profile url for git user"
+
+  [[params.addtional_menus]]
+  title =  "ABOUT"
+  href =  "/about/"
+  [[params.addtional_menus]]
+  title =  "POSTS"
+  href =  "/posts/"
+  [[params.addtional_menus]]
+  title =  "CONTACT"
+  href =  "/contact/"
+  [[params.addtional_menus]]
+  title =  "ARCHIVE"
+  href =  "/archive/"
