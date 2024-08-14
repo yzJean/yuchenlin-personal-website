@@ -57,7 +57,7 @@ h2 {
 }
 
 .profile-pic {
-    width: 300px;
+    width: 100px;
     height: auto;
     margin-right: 20px;
     border-radius: 0%; /* Optional: Make the image circular */
