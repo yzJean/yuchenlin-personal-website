@@ -1,0 +1,40 @@
+<!-- landing.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu-Chen Lin | Welcome</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: #1e1e1e;
+            /* Replace with your preferred color */
+            display: flex;
+            flex-direction: column;
+            /* Stack elements vertically */
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: "Lucida Console", Courier, monospace;
+        }
+
+        .enter-site {
+            margin-bottom: 20px; /* Adjust spacing between dynamic text and link */
+            color: white;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="home.html" class="enter-site">Enter Site</a>
+    <div class="dynamic-texts" id="dynamicText"></div>
+    <script src="typing_animation.js"></script>
+</body>
+
+</html>
