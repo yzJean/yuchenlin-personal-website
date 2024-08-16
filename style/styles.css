@@ -111,3 +111,8 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+/* cv */
+.indented-item {
+    padding-left: 20px;
+}
