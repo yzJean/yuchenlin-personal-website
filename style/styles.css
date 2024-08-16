@@ -40,6 +40,31 @@ body {
     background-color: #DDDDDD;
 }
 
+.contact-menu {
+    /* display: flex; */
+    flex: 1;
+    gap: 10px;
+}
+
+.contact-menu a {
+    text-decoration: none;
+    color: #3C3D37;
+    padding: 15px 10px;
+    margin: 5px 0;
+    background-color: #f0f0f0;
+    border-radius: 2px;
+    font-size: 18px;
+    text-align: right;
+}
+
+.icon i {
+    font-size: 20px; /* Increase the font size to zoom in */
+}
+
+.contact-menu a:hover {
+    background-color: #DDDDDD;
+}
+
 main {
     padding: 20px;
 }
