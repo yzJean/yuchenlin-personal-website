@@ -1,10 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     const texts = [
-        "Hi, I am Yu-Chen Lin.",
-        "I am a Master's student in Computer Science and Engineering at The Ohio State University.",
-        "I specialize in software engineering, robotic algorithm development, ",
-        "system performance optimization, and full-stack development.",
-        "Welcome to explore my work and achievements! "
+        "Hi, I'm Yu-Chen Lin, a Master's student in Computer Science and Engineering at The Ohio State University.",
+        "I specialize in software engineering and focus on web development, system optimization, and robotic algorithms.",
+        "My passion is to create efficient, innovative solutions to complex problems.",
+        "Explore my work and let's connect!"
     ];
 
 
